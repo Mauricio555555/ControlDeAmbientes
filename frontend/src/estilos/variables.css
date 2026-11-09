@@ -2,6 +2,8 @@
     --color-primario: #0f766e;
     --color-primario-oscuro: #115e59;
     --color-primario-claro: #ccfbf1;
+    --color-secundario: #f59e0b;
+    --color-superficie: #ffffff;
     --color-texto: #1f2937;
     --color-texto-suave: #4b5563;
     --color-fondo: #f8fafc;
@@ -37,5 +39,5 @@
     --radio-ls: 0.75rem;
     --sombra: 0 1px 3px rgb(0 0 0 / 0.1), 0 1px 2px rgb(0 0 0 / 0.06);
 
-
+    --area-min: 35px;
 }
