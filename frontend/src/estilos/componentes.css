@@ -99,3 +99,55 @@ input:focus-visible, select:focus-visible{
 .tabla tbody tr:hover{
     background: var(--color-primario-claro);
 }
+
+/* Formulario de la vista asignacion */
+.tarjeta_formulario fieldset{
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--espacio-3);
+    padding: var(--espacio-4);
+    margin: 0 0 var(--espacio-4);
+    min-width: 0;
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio);
+}
+.tarjeta_formulario legend{
+    font-weight: 700;
+    padding: 0 var(--espacio-2);
+}
+
+/* Botones formulario */
+.btn-primario, .btn-secundario{
+    font: inherit;
+    font-weight: 600;
+    min-height: var(--area-min);
+    padding: 0 var(--espacio-6);
+    border-radius: var(--radio);
+    cursor: pointer;
+    border: 3px solid var(--color-primario);
+    transition: background-color 0.15s;
+}
+.btn-primario{
+    background: var(--color-primario);
+    color: aliceblue;
+}
+.btn-primario:hover {
+    background: var(--color-primario-oscuro);
+}
+.btn-secundario{
+    background: var(--color-superficie);
+    color: var(--color-texto);
+}
+.btn-secundario:hover {
+    background: var(--color-primario-claro);
+}
+.btn-primario:disabled, .btn-secundario:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.acciones{
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--espacio-3);
+    flex-wrap: wrap;
+}
