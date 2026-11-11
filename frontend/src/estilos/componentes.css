@@ -15,6 +15,28 @@
     border-left: 4px solid;
 }
 
+/* Tarjetas */
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-3);
+    padding: var(--espacio-6);
+    background: var(--color-superficie);
+    border-radius: var(--radio-ls);
+    border: 1px solid var(--color-borde);
+}
+
+/* Formulario de login */
+.formulario-angosto{
+    max-width: 26rem;
+    margin: 0 auto;
+}
+
+.btn-login{
+    text-align: center;
+    
+}
+
 /* Formulario */
 .campo{
     margin: 0;
