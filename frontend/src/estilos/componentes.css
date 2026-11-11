@@ -71,6 +71,11 @@
     color: var(--color-ocupado-texto);
 }
 
+.grilla-semanal [role="cell"]:hover{
+    background: var(--color-primario-claro);
+    cursor: pointer;
+}
+
 .leyenda{
     display: flex;
     flex-wrap: wrap;
